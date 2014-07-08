@@ -31,7 +31,7 @@ def animate_plot(data):
 
     plt.show()
 
-def animate_2d_ffts(data):
+def animate_2d_ffts(data,filename=None):
     fig2 = plt.figure()
 
     size = data.shape[2]
@@ -42,7 +42,10 @@ def animate_2d_ffts(data):
     im_ani = animation.ArtistAnimation(fig2, ims, interval=50, repeat_delay=3000,
                                        blit=True)
 
-    plt.show()
+    if filename:
+        im_ani.save(filename)
+    else:
+        plt.show()
 
 def imbin(image):
     dims = np.array(image.shape)
