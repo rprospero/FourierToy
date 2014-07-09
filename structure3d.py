@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 from scipy import misc
 from scipy.fftpack import fftshift, fftfreq, ifftshift
 from scipy.ndimage.measurements import label
