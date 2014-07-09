@@ -1,0 +1,4 @@
+#+TITLE: Limitations of the Fourier-Slice System
+#+AUTHOR: Adam Washington
+
+#+OPTIONS: toc:nil
