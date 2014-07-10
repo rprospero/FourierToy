@@ -92,9 +92,8 @@ def main():
 
     rs = np.round(np.sqrt(rs))
 
-    mask = np.logical_and(
-        rs >= (1-tol/100.0)*wavelength
-        , rs <= (1+tol/100.0)*wavelength)
+    mask = np.logical_and(rs >= (1-tol/100.0)*wavelength,
+                          rs <= (1+tol/100.0)*wavelength)
 
     spec[mask] = 1
     animate_plot(spec)
