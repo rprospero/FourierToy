@@ -2,3 +2,17 @@
 #+AUTHOR: Adam Washington
 
 #+OPTIONS: toc:nil
+
+#+EXPORT_DATE: June 27, 2014
+#+OPTIONS: toc:nil
+
+
+#+startup: beamer
+#+LaTeX_CLASS: beamer
+#+LaTeX_CLASS_OPTIONS: [bigger]
+#+OPTIONS: H:1
+
+#+latex: \setbeamertemplate{footline}[frame number]
+#+BEAMER_THEME: Montpellier
+#+BEAMER_COLOR_THEME: wolverine
+
